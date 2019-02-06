@@ -7,6 +7,20 @@
 //
 
 import Foundation
+// explicit
+var name: String = "Eric"
+// implicit
+var age = 24
+// for constant use let instead of var
+name = "Josh"
+age = 25
 
-print("Hello, World!")
+var value: Double = 154321
 
+print("name is \(name)")
+
+print("\(name) is \(age) years old")
+
+for i in 1...5 {
+    print(i)
+}
