@@ -11,6 +11,7 @@ import Foundation
 var name: String = "Eric"
 // implicit
 var age = 24
+var payRate = 134000.51
 // for constant use let instead of var
 name = "Josh"
 age = 25
